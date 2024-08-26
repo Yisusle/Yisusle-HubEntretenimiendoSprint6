@@ -11,7 +11,7 @@ Utlice Bootstrap, angular materials SQL Server, ASP.NET Kubernetes y Docker
 
 
 ### 3. ¿Como instalar?
-Primero necesitas tener instalado node.js luego ir a la raiz del proyecto y teclear esto en tu terminal "npm install", depues tambien tienes que tener instalado angular "npm install -g @angular/cli" luego ejecutar "ng serve" para vizualizar el proyecto(Ya que no pude correr el proyecto con docker y kubernetes por usar localstorages) Segundo importar la base de datos tercero hacer build del backend "docker build -t angular-frontend:latest" y correrlo, despues ir a front y modificar la ruta de la API para que funcione.
+Primero necesitas tener instalado node.js luego ir a la raiz del proyecto y teclear esto en tu terminal "npm install", depues tambien tienes que tener instalado angular "npm install -g @angular/cli" luego ejecutar "ng serve" para vizualizar el proyecto(Ya que no pude correr el proyecto con docker y kubernetes por usar localstorages) Segundo importar la base de datos y modificar en el backend el archivo "appsettings.json" con sus credenciales respondientes. Tercero hacer build del backend "docker build -t angular-frontend:latest" y correrlo, despues ir a front y modificar la ruta de la API para que funcione.
 
 ### 4. Capturas de pantalla 
 
