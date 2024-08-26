@@ -1,16 +1,17 @@
 # HubEntretenimiendo
 
-### Sprint 2 y 3
+### Sprint 6
 
 ## Jesus Antonio Leyva Apodaca
 
 ### 1. Resumen del proyecto 
 Este proyecto es un hub de entretenimiento en el cual se muestran peliculas y series a las cuales el usuario las puede agregar a favoritos si lo desea.
 ### 2. Requerimientos tecnicos -
-Utlice Bootstrap y angular materials
+Utlice Bootstrap, angular materials SQL Server, ASP.NET Kubernetes y Docker
+
 
 ### 3. ¿Como instalar?
-Primero necesitas tener instalado node luego ir a la raiz del proyecto y teclear esto en tu terminal "npm install", depues tambien tienes que tener instalado angular "npm install -g @angular/cli" luego ejecutar "ng serve" para vizualizar el proyecto.
+Primero necesitas tener instalado node.js luego ir a la raiz del proyecto y teclear esto en tu terminal "npm install", depues tambien tienes que tener instalado angular "npm install -g @angular/cli" luego ejecutar "ng serve" para vizualizar el proyecto(Ya que no pude correr el proyecto con docker y kubernetes por usar localstorages) Segundo importar la base de datos tercero hacer build del backend "docker build -t angular-frontend:latest" y correrlo, despues ir a front y modificar la ruta de la API para que funcione.
 
 ### 4. Capturas de pantalla 
 
@@ -37,7 +38,7 @@ Me guie con el curso de angular y viendo tutos en internet.
 
 | Que salio bien? | Que puedo hacer diferente? | Que no salio bien ? |
 ------------------|----------------------------|-----------------------
-| Aprender a hacer cosas en Angular |Trabajar mas rapido y tener mas organizado todo  | centrar los divs jaja, y tener porcentaje en el testing |
+| Aprender a hacer cosas en ASP.NET Y kubernetes |Trabajar mas rapido y tener mas organizado todo  | problemas con crear el contenedor por tener localstoreges |
 
 ### Testing y CodeCoverage
 ![imagen](https://github.com/user-attachments/assets/711f5c9b-a52c-4d72-9b4c-9b58d00d2a0c)
@@ -45,6 +46,12 @@ Me guie con el curso de angular y viendo tutos en internet.
 ![imagen](https://github.com/user-attachments/assets/a41683d1-e2ea-4cb2-b291-545ae80ea35c)
 
 
+### Diagrama Modelo Entidad Relación
+![ModeloEntidadRelación](https://github.com/user-attachments/assets/d914e60b-d3fb-4b53-89e1-e9a4ea5dd486)
+
+### Posibles mejoras
+
+Añadir un buscador y resolver los errores.
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.6.
